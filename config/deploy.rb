@@ -5,6 +5,7 @@ set :application, 'docean_testapp'
 set :repo_url, 'git@github.com:shinwang1/docean_testapp.git'
 set :deploy_to, '/opt/www/docean_testapp'
 set :user, 'deploy'
+set :server, '138.68.14.229'
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
 # Default branch is :master
